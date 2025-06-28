@@ -39,7 +39,7 @@ let footer = `
                 <p class="mb-0">
                      لمسة درويش للتشطيبات والديكور © 2025
                 </p>
-                <a href="#" class="footer-link">شركة تصميم مواقع - <span dir="ltr">DevCode</span></a>
+                <a href="#" class="footer-link">شركة تصميم مواقع - <span dir="ltr" >DevCode</span></a>
             </div>
         </div>`;
 

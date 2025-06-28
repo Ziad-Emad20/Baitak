@@ -251,15 +251,10 @@ body {
 
 
 
-body {
-  background-color: var(--color-bg-light);
-  color: var(--color-text);
-  font-family: "Arial", sans-serif;
-}
 
 /* services btn */
 .text-primary {
-  color: var(--color-primary) !important;
+  color: var(--color-primary) !important ;
 }
 
 .text-body {
