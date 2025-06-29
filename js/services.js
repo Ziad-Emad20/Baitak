@@ -62,7 +62,7 @@ container.innerHTML = services
     (service) => `
   <div class="col-lg-4 col-md-6 mb-4">
     <div class="card h-100 shadow-sm rounded-4">
-      <img src="${service.imgPath}" class="card-img-top" alt="${service.name}" style="height: 180px; object-fit: cover;">
+      <img src="${service.imgPath}" class="card-img-top" loading="lazy" alt="${service.name}" style="height: 180px; object-fit: cover;">
       <div class="card-body d-flex flex-column">
         <h5 class="card-title text-primary">${service.name}</h5>
         <p class="card-text text-body" style="white-space: pre-line;">${service.description}</p>
