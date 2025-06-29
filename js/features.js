@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const container = document.getElementById("features-container");
   container.innerHTML = features.map(feature => `
+    
     <div class="col-lg-4 col-md-6 mb-4">
       <div class="card h-100 text-center  text-light p-4 rounded-4 border-0">
         <div class="mb-3">

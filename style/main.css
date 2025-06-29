@@ -122,6 +122,8 @@ body {
   padding: 0.5rem;
 }
 
+
+
 /* home btn*/
 .btn-design {
   background-color: var(--color-accent);
@@ -213,6 +215,7 @@ body {
 
 
 /* features*/
+
 .card{
   background-color: var(--color-primary);
 }
