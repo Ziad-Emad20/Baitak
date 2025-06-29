@@ -1,12 +1,13 @@
 let foot = document.getElementById("footer");
+foot.setAttribute("data-aos","fade-up")
 let footer = ` 
         <div class="container">
             <div class="row text-end">
                 <!-- الشعار والنص -->
                 <div class="col-lg-6 col-md-12 text-center text-md-end">
-                    <img src="https://picsum.photos/400/220?random=1" alt="ديكور مور" style="width: 150px;"
+                    <img src="https://picsum.photos/400/220?random=1" alt="لمسة درويش" loading="lazy" style="width: 150px;"
                         class="mb-3">
-                    <p>ديكور مور كل ما تحتاجه وأكثر في التشطيب والديكورات. خبرة كبيرة، جودة أكيدة، تصاميم حديثة، وبأسعار
+                    <p> لمسة درويش كل ما تحتاجه وأكثر في التشطيب والديكورات. خبرة كبيرة، جودة أكيدة، تصاميم حديثة، وبأسعار
                         مناسبة.
                         بإختصار نحن من نستطيع تنفيذ ديكور منزلك، مكتبك، بأرقى التفاصيل.
                     </p>
@@ -39,7 +40,7 @@ let footer = `
                 <p class="mb-0">
                      لمسة درويش للتشطيبات والديكور © 2025
                 </p>
-                <a href="#" class="footer-link">شركة تصميم مواقع - <span dir="ltr" >DevCode</span></a>
+                    <a href="#" class="footer-link">شركة تصميم مواقع - <span dir="ltr" class="text-decoration-underline fw-bold">DevCode</span></a>
             </div>
         </div>`;
 

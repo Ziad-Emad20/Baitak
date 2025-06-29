@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <li class="nav-item"><a class="nav-link active" href="#">الرئيسية</a></li>
           <li class="nav-item"><a class="nav-link" href="#">خدمات ديكور</a></li>
           <li class="nav-item"><a class="nav-link" href="#">من نحن</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">اتصل بنا</a></li>
+          <li class="nav-item"><a class="nav-link" href="../contact.html">اتصل بنا</a></li>
         </ul>
         <div class="btn-area text-center text-lg-start">
           <a href="#design-form" class="btn  btn-design">

@@ -213,9 +213,7 @@ body {
 
 
 /* features*/
-.card{
-  background-color: var(--color-primary);
-}
+
 .card:hover {
   transform: translateY(-5px);
   transition: 0.3s ease;
@@ -253,11 +251,11 @@ body {
 
 
 /* services btn */
-.text-primary {
+.text-primary,.heading-card {
   color: var(--color-primary) !important ;
 }
 
-.text-body {
+.text-body, .text-card {
   color: var(--color-text);
 }
 
@@ -297,3 +295,4 @@ body {
 .footer-link:hover {
   color: var(--color-accent);
 }
+
