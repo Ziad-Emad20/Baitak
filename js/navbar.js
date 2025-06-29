@@ -1,4 +1,3 @@
-
 window.addEventListener("load", () => {
   window.scrollTo(0, 0);
 
@@ -10,21 +9,18 @@ window.addEventListener("load", () => {
   });
 });
 
-
-
 document.addEventListener("DOMContentLoaded", function () {
-  
   const navbarHTML = `
-  <nav class="navbar navbar-expand-lg py-3 transparent-navbar" data-aos="fade-down" data-aos-delay="100">
+  <nav class="navbar navbar-expand-lg py-3 transparent-navbar"  data-aos-delay="100">
     <div class="container">
-      <a class="navbar-brand" href="#">لمسة درويش</a>
+      <a class="navbar-brand" href="#">لمسة <span class="logo">درويش</span></a>
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="menu-icon"><i class="fas fa-bars"></i></span>
         <span class="close-icon d-none"><i class="fas fa-times"></i></span>
       </button>
       <div class="collapse navbar-collapse justify-content-between align-items-center" id="mainNavbar">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4 text-center text-lg-end">
-          <li class="nav-item"><a class="nav-link active" href="#">الرئيسية</a></li>
+          <li class="nav-item"><a class="nav-link active" href="/index.html">الرئيسية</a></li>
           <li class="nav-item"><a class="nav-link" href="#">خدمات ديكور</a></li>
           <li class="nav-item"><a class="nav-link" href="#">من نحن</a></li>
           <li class="nav-item"><a class="nav-link" href="../contact.html">اتصل بنا</a></li>
@@ -46,7 +42,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   placeholder.innerHTML = navbarHTML;
 
-
   const navbar = document.querySelector(".navbar");
   const toggler = document.querySelector(".navbar-toggler");
   const menuIcon = toggler?.querySelector(".menu-icon");
@@ -54,10 +49,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const navbarCollapse = document.getElementById("mainNavbar");
 
   if (!navbar || !toggler || !menuIcon || !closeIcon || !navbarCollapse) {
-    console.error("❌ عنصر أو أكثر من عناصر النافبار غير موجود. تأكد من تحميل Bootstrap JS");
+    console.error(
+      "❌ عنصر أو أكثر من عناصر النافبار غير موجود. تأكد من تحميل Bootstrap JS"
+    );
     return;
   }
-
 
   window.addEventListener("scroll", () => {
     if (window.scrollY > 200) {

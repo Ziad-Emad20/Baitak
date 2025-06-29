@@ -52,6 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
     data-aos-duration=${feature.duration}
      >
       <div class="card h-100 text-center  text-black p-4 rounded-4 border-0">
+
         <div class="mb-3">
           <i class="${feature.icon}" style="font-size: 2.5rem; color: ${feature.color};"></i>
         </div>
