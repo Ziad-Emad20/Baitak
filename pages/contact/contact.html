@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="شركة لمسة درويش للتشطيبات والديكور في جدة تقدم أعمال ديكور داخلي وخارجي، جبس بورد، دهانات، كهرباء، سباكة، نجارة بأعلى جودة ومعايير السلامة." />
+    <meta name="keywords"
+        content="تشطيبات, ديكورات, جبس بورد, دهانات, سباكة, كهرباء, نجارة, شركة تشطيب, تصميم داخلي, تشطيب شقق, تشطيب فلل, ديكور داخلي, ديكور خارجي, أعمال خشبية, لمسة درويش, جدة تشطيب" />
+    <title>شركة لمسة درويش للتشطيبات والديكور - جدة</title>
+
+    <!-- links -->
+
+    <!-- 1. Bootstrap CSS -->
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- 2. AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../style/main.css" />
+    <!--2.fortawesome -->
+    <link rel="stylesheet" href="../../node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div id="navbar-placeholder"></div>
+    <!--ٍStart Hero Section -->
+    <section class="hero" style="height: 60vh;" data-aos="fade-up" data-aos-delay="200">
+        <div class="hero-content">
+            <h1 data-aos="fade-up" class="lh-lg mb-3" data-aos-delay="300">
+                شركة لمسة درويش للديكور والتشطيبات
+            </h1>
+            <p data-aos="fade-up" class="lh-base" data-aos-delay="400">
+                احدى شركات تشطيب المنازل والفلل والمنشأت داخل مدينة جدة
+            </p>
+            <div class="mt-4" data-aos="zoom-in" data-aos-delay="500">
+                <a href="#contact" class="btn btn-call">اتصل بنا</a>
+            </div>
+        </div>
+    </section>
+    <!--End Hero Section -->
+    <form id="contact-form" action="https://formspree.io/f/manjarpg" method="post" class="contact-section py-5" data-aos="fade-up" data-aos-delay="500">
+        <div class="container">
+            <div class="card shadow-sm rounded-4 p-4">
+                <h4 class="mb-4 text-center text-primary">طلب خدمة</h4>
+                <form>
+                    <div class="row">
+                        <!-- الاسم -->
+                        <div class="col-md-6 mb-3">
+                            <label for="name" class="form-label">الاسم الكامل</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="اكتب اسمك"
+                                pattern="[A-Za-z]{,3}" required>
+                        </div>
+
+                        <!-- العنوان -->
+                        <div class="col-md-6 mb-3">
+                            <label for="address" class="form-label">العنوان</label>
+                            <input type="text" class="form-control" id="address" name="address"
+                                placeholder="اكتب عنوانك" required>
+                        </div>
+
+                        <!-- رقم الهاتف -->
+                        <div class="col-md-6 mb-3">
+                            <label for="phone" class="form-label">رقم الجوال</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="05xxxxxxxx"
+                                required>
+                        </div>
+
+                        <!-- اختيار الخدمة -->
+                        <div class="col-md-6 mb-3">
+                            <label for="service" class="form-label">الخدمة المطلوبة</label>
+                            <select id="service" name="service" class="form-select" required>
+                                <option selected value="">اختر خدمة</option>
+                                <option>أعمال الديكور الداخلية والخارجية</option>
+                                <option>أعمال الدهانات الداخلية والخارجية</option>
+                                <option>أعمال الجبس بورد بتصاميم عصرية وتنفيذ دقيق</option>
+                                <option>أعمال السباكة بكفاءة وجودة عالية</option>
+                                <option>أعمال الكهرباء وفق أعلى معايير السلامة</option>
+                                <option>أعمال النجارة والديكورات الخشبية</option>
+                                <option>أعمال الترميمات الداخلية والخارجية للمنازل والمباني</option>
+                            </select>
+                        </div>
+
+                        <!-- الرسالة -->
+                        <div class="col-12 mb-3">
+                            <label for="message" class="form-label">تفاصيل إضافية</label>
+                            <textarea class="form-control" id="message" name="message" rows="4"
+                                placeholder="اكتب أي تفاصيل إضافية هنا..." style="resize: none;"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- زر الإرسال -->
+                    <div class="text-center mt-3">
+                        <button type="submit" class="btn btn-accent px-4">إرسال الطلب</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </form>
+    <div id="success-message" class="alert alert-success mt-2 mb-5 d-none text-center">
+        ✅ تم إرسال رسالتك بنجاح، سنقوم بالرد عليك في أقرب وقت!
+    </div>
+
+
+    <!--! Footer -->
+    <footer id="footer" class="footer pt-5 pb-3 text-white"></footer>
+
+    <!--================== links ========================= -->
+    <!-- 1. Bootstrap (JS) -->
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- 2. AOS animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- 3. All js Files -->
+    <script src="../../js/navbar.js"></script>
+    <script src="../../js/footer.js"></script>
+    <script src="../../js/main.js"></script>
+    <script src="../../js/form.js"></script>
+</body>
+
+</html>

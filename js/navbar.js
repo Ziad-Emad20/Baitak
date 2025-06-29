@@ -22,8 +22,13 @@ document.addEventListener("DOMContentLoaded", function () {
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4 text-center text-lg-end">
           <li class="nav-item"><a class="nav-link active" href="/index.html">الرئيسية</a></li>
           <li class="nav-item"><a class="nav-link" href="#">خدمات ديكور</a></li>
+<<<<<<< Updated upstream
 <li class="nav-item"><a class="nav-link" target="_blank" href="pages/who_we/who_w_a.html">من نحن</a></li>   
        <li class="nav-item"><a class="nav-link" href="#">اتصل بنا</a></li>
+=======
+          <li class="nav-item"><a class="nav-link" href="./pages/who_we/who_w_a.html">من نحن</a></li>
+          <li class="nav-item"><a class="nav-link" href="./pages/contact/contact.html">اتصل بنا</a></li>
+>>>>>>> Stashed changes
         </ul>
         <div class="btn-area text-center text-lg-start">
           <a href="#design-form" class="btn  btn-design">
