@@ -21,16 +21,16 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="collapse navbar-collapse justify-content-between align-items-center" id="mainNavbar">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4 text-center text-lg-end">
           <li class="nav-item"><a class="nav-link active" href="/index.html">الرئيسية</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">خدمات ديكور</a></li>
+          <li class="nav-item"><a class="nav-link" href="/index.html#services-container">خدمات ديكور</a></li>
 
-          <li class="nav-item"><a class="nav-link" href="./pages/who_we/who_w_a.html">من نحن</a></li>
-          <li class="nav-item"><a class="nav-link" href="./pages/contact/contact.html">اتصل بنا</a></li>
+          <li class="nav-item"><a class="nav-link" href="/pages/who_we/who_w_a.html">من نحن</a></li>
+          <li class="nav-item"><a class="nav-link" href="/pages/contact/contact.html">اتصل بنا</a></li>
 
 
           
         </ul>
         <div class="btn-area text-center text-lg-start">
-          <a href="#design-form" class="btn  btn-design">
+          <a href="https://wa.me/966510312525" class="btn  btn-design">
             <i class="fas fa-paint-roller me-2"></i> صمّم منزلك
           </a>
         </div>
