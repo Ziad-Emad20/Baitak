@@ -4,18 +4,18 @@ let footer = `
         <div class="container">
             <div class="row text-end">
                 <!-- الشعار والنص -->
-                <div class="col-lg-6 col-md-12 text-center text-md-end">
-                    <img src="https://picsum.photos/400/220?random=1" alt="لمسة درويش" loading="lazy" style="width: 150px;"
-                        class="mb-3">
-                    <p> لمسة درويش كل ما تحتاجه وأكثر في التشطيب والديكورات. خبرة كبيرة، جودة أكيدة، تصاميم حديثة، وبأسعار
-                        مناسبة.
-                        بإختصار نحن من نستطيع تنفيذ ديكور منزلك، مكتبك، بأرقى التفاصيل.
-                    </p>
+                <div class="col-lg-6 col-md-12 text-end text-md-end">
+                 <i class="fa-solid fa-house" style="color: #00bfa6; font-size: 2rem;"></i>
+
+                       
+                   <p class="lh-lg">
+                   لمسة درويش بجدة تقدّم مجموعة متكاملة من الخدمات المتخصصة في تجهيز وتجميل المنازل والمنشآت داخل مدينة جدة. تشمل خدماتنا جميع مراحل العمل بدءًا من أعمال التأسيس والتركيب والتجهيز، وصولًا إلى اللمسات النهائية من الديكورات والتشطيبات الداخلية والخارجية.
+                   </p>
                 </div>
                 <!-- روابط هامة -->
                 <div class="col-lg-3 col-md-6 mb-4">
                     <h5 class="footer-title">روابط هامة</h5>
-                    <ul class="list-unstyled p-0">
+                    <ul class="list-unstyled p-0 lh-lg">
                         <li><a href="/index.html" class="footer-link">الرئيسية</a></li>
                         <li><a href="/index.html#services-container" class="footer-link">خدمات ديكور</a></li>
                         <li><a href="/pages/who_we/who_w_a.html" class="footer-link">من نحن</a></li>
@@ -25,7 +25,7 @@ let footer = `
                 <!-- تواصل معنا -->
                 <div class="col-lg-3 col-md-6 mb-4">
                     <h5 class="footer-title">تواصل معنا</h5>
-                    <ul class="list-unstyled p-0">
+                    <ul class="list-unstyled p-0 lh-lg">
                         <li> الأيام: من السبت - الجمعة.</li>
                         <li> أوقات الدوام: 24 ساعة</li>
                         <li> العنوان: جدة، مكة السعودية.</li>
