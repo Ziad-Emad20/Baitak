@@ -13,7 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const navbarHTML = `
   <nav class="navbar navbar-expand-lg py-3 transparent-navbar"  data-aos-delay="100">
     <div class="container">
-      <a class="navbar-brand" href="#">لمسة <span class="logo">درويش</span></a>
+     <i class="fa-solid fa-house" style="color: #00bfa6; font-size: 2rem;"></i>
+
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="menu-icon"><i class="fas fa-bars"></i></span>
         <span class="close-icon d-none"><i class="fas fa-times"></i></span>
