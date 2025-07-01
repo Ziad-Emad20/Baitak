@@ -1,6 +1,6 @@
 # 📘 Baitak
 
-![Homepage](assets/home.png)
+![Homepage](assets/Home.png)
 
 **Baitak** is a responsive real estate services landing website built using modern frontend technologies. It provides a clean, interactive UI with separate pages for services, contact, and about us sections.
 
