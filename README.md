@@ -64,16 +64,6 @@ cd Baitak
 
 ---
 
-## 📦 Install Dependencies (Optional)
-
-If you want to develop or extend the project:
-
-```bash
-npm install
-```
-
----
-
 ## 📬 Contributing
 
 Contributions are welcome!
@@ -90,4 +80,6 @@ Contributions are welcome!
 This project is licensed under the **MIT License** — feel free to use and modify with proper attribution.
 
 
-هل تحب كمان أجهزه كملف فعلي `README.m
+
+![Homepage Preview](assets/hero_section.jpeg)
+
